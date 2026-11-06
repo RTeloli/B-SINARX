@@ -1,0 +1,18 @@
+# Experimental data is hosted on Zenodo (see README), not in this repository
+*.mat
+!**/.gitkeep
+
+# Generated results
+Results/**/*
+!Results/**/.gitkeep
+
+# MATLAB
+*.asv
+*.m~
+*.autosave
+slprj/
+codegen/
+
+# OS files
+.DS_Store
+Thumbs.db

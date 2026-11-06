@@ -1,0 +1,18 @@
+{
+  "_schemaVersion": "1.0.0",
+  "BaselineDiscreteModel": {
+    "inputs": [
+      {"name": "datamode",   "kind": "ordered", "type": ["choices={'numerical'}"]},
+      {"name": "modeselect", "kind": "ordered", "type": ["choices={'boucwen0','linearbw','boucwen1','boucwen2'}"]},
+      {"name": "parameters", "kind": "namevalue", "type": ["struct"]},
+      {"name": "timestep",   "kind": "namevalue", "type": ["numeric", "scalar", "positive"]}
+    ]
+  },
+  "BaselineDiscreteModel": {
+    "inputs": [
+      {"name": "datamode",   "kind": "ordered", "type": ["choices={'experimental'}"]},
+      {"name": "modeselect", "kind": "ordered", "type": ["choices={'linear_no','linear_ex'}"]},
+      {"name": "timestep",   "kind": "namevalue", "type": ["numeric", "scalar", "positive"]}
+    ]
+  }
+}
