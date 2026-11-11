@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "Any use of this code must cite the article below."
+title: "B-SINARX"
+type: software
+repository-code: "https://github.com/RTeloli/B-SINARX"
+license: MIT
+authors:
+  - family-names: Atnafe
+    given-names: Eyoel
+  - family-names: Teloli
+    given-names: Rafael
+  - family-names: Sadoulet-Reboul
+    given-names: Emeline
+  - family-names: Cogan
+    given-names: Scott
+preferred-citation:
+  type: article
+  title: "Interpretable discrepancy learning in dynamical systems using Bayesian SINDy-NARX: The B-SINARX framework"
+  authors:
+    - family-names: Atnafe
+      given-names: Eyoel
+    - family-names: Teloli
+      given-names: Rafael
+    - family-names: Sadoulet-Reboul
+      given-names: Emeline
+    - family-names: Cogan
+      given-names: Scott
+  journal: "Mechanical Systems and Signal Processing"
+  volume: 262
+  start: 115084
+  year: 2027
+  issn: "0888-3270"
+  doi: "10.1016/j.ymssp.2026.115084"
+  url: "https://www.sciencedirect.com/science/article/pii/S0888327026012410"
+  keywords:
+    - Model discrepancy
+    - Sparse regression
+    - System identification
+    - Hybrid model
+    - Bayesian regression
+    - NARX

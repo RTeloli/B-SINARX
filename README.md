@@ -1,5 +1,9 @@
 # B-SINARX
 
+[![DOI](https://img.shields.io/badge/MSSP-10.1016%2Fj.ymssp.2026.115084-blue)](https://doi.org/10.1016/j.ymssp.2026.115084)
+
+Code accompanying the article *Interpretable discrepancy learning in dynamical systems using Bayesian SINDy-NARX: The B-SINARX framework* (Mechanical Systems and Signal Processing, 2027). **If you use this code, you must cite this article.** See [Citation](#citation).
+
 MATLAB implementation of **B-SINARX**, a Bayesian sparse identification framework for nonlinear autoregressive models with exogenous inputs (SINDy-type NARX models). The model is built from a library of candidate basis functions, can be combined with a known (baseline) physics model, and is trained with sparse or sparse-Bayesian regression. This gives posterior distributions over the model terms and supports uncertainty-aware closed-loop prediction.
 
 The repository includes two example case studies:
@@ -70,8 +74,27 @@ This repository includes third-party solvers, which keep their own licenses. See
 
 ## Citation
 
-If you use this code, please cite the related article *(reference to be added)*.
+**Any use of this code must cite the following article:**
+
+> E. Atnafe, R. Teloli, E. Sadoulet-Reboul, S. Cogan. *Interpretable discrepancy learning in dynamical systems using Bayesian SINDy-NARX: The B-SINARX framework.* Mechanical Systems and Signal Processing, 262, 115084, 2027. [https://doi.org/10.1016/j.ymssp.2026.115084](https://doi.org/10.1016/j.ymssp.2026.115084)
+
+BibTeX:
+
+```bibtex
+@article{ATNAFE2027115084,
+  title    = {Interpretable discrepancy learning in dynamical systems using Bayesian SINDy-NARX: The B-SINARX framework},
+  journal  = {Mechanical Systems and Signal Processing},
+  volume   = {262},
+  pages    = {115084},
+  year     = {2027},
+  issn     = {0888-3270},
+  doi      = {10.1016/j.ymssp.2026.115084},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0888327026012410},
+  author   = {Eyoel Atnafe and Rafael Teloli and Emeline Sadoulet-Reboul and Scott Cogan},
+  keywords = {Model discrepancy, Sparse regression, System identification, Hybrid model, Bayesian regression, NARX}
+}
+```
 
 ## Contact
 
-Rafael de O. Teloli, FEMTO-ST Institute, Université Marie et Louis Pasteur, Besançon, France.
+Rafael Teloli, FEMTO-ST Institute, Université Marie et Louis Pasteur, Besançon, France.
