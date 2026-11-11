@@ -1,6 +1,7 @@
 # B-SINARX
 
 [![DOI](https://img.shields.io/badge/MSSP-10.1016%2Fj.ymssp.2026.115084-blue)](https://doi.org/10.1016/j.ymssp.2026.115084)
+[![Data](https://img.shields.io/badge/Data-10.5281%2Fzenodo.24143247-blue)](https://doi.org/10.5281/zenodo.24143247)
 
 Code accompanying the article *Interpretable discrepancy learning in dynamical systems using Bayesian SINDy-NARX: The B-SINARX framework* (Mechanical Systems and Signal Processing, 2027). **If you use this code, you must cite this article.** See [Citation](#citation).
 
@@ -30,7 +31,7 @@ example_MainNumericalModel      % runs out of the box
 
 The experimental measurements total about 2 GB and are **not stored in this repository**. Download them from Zenodo:
 
-> **DOI:** [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX) *(to be updated)*
+> **DOI:** [10.5281/zenodo.24143247](https://doi.org/10.5281/zenodo.24143247)
 
 Extract the archive so that the measurement folders are placed in:
 
